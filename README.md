@@ -1,7 +1,3 @@
-Tentu, ini dia README dalam format Markdown yang meniru gaya modern dan keren dari contoh yang Anda berikan, disesuaikan untuk proyek Kartu Profil Anda.
-
------
-
 # Kartu Profil Modern & Responsif ✨
 
 Tinggalkan kartu nama yang membosankan\! Tampilkan profil Anda dengan kartu yang **elegan**, **bersih**, dan **interaktif** ini. Sempurna untuk portofolio atau halaman bio media sosial. 🚀
