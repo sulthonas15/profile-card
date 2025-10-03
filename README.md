@@ -1,67 +1,85 @@
-Kartu Profil Modern & Responsif ✨
-Tinggalkan kartu nama yang membosankan! Tampilkan profil Anda dengan kartu yang elegan, bersih, dan interaktif ini. Sempurna untuk portofolio atau halaman bio media sosial. 🚀
+Tentu, ini dia README dalam format Markdown yang meniru gaya modern dan keren dari contoh yang Anda berikan, disesuaikan untuk proyek Kartu Profil Anda.
 
-🌟 Fitur Utama
-🎨 Desain Elegan & Bersih
-Tampilan minimalis yang fokus pada konten utama Anda, membuat profil Anda terlihat profesional.
+-----
 
-📱 Sepenuhnya Responsif
-Tampilan sempurna di semua perangkat, baik dibuka di desktop layar lebar maupun di ponsel.
+# Kartu Profil Modern & Responsif ✨
 
-🎨 Kustomisasi Super Gampang
-Ubah seluruh skema warna dengan mudah hanya dengan mengedit beberapa baris variabel CSS. Noob-friendly!
+Tinggalkan kartu nama yang membosankan\! Tampilkan profil Anda dengan kartu yang **elegan**, **bersih**, dan **interaktif** ini. Sempurna untuk portofolio atau halaman bio media sosial. 🚀
 
-✨ Batas Gradien Keren
-Foto profil dikelilingi oleh batas gradien yang halus dan menarik perhatian.
+-----
 
-👆 Animasi Hover Halus
-Efek transisi yang memuaskan saat mouse menyentuh tombol dan ikon sosial.
+## 🌟 Fitur Utama
 
-🛠️ Teknologi yang Dipakai
-Teknologi	Deskripsi
-HTML5	Struktur dasar dan konten dari kartu profil.
-CSS3	Styling, layout Flexbox, responsivitas, dan animasi.
-Google Fonts	Menggunakan font "Poppins" untuk tipografi yang modern.
-Font Awesome	Menyediakan ikon-ikon media sosial yang tajam dan scalable.
+  * 🎨 **Desain Elegan & Bersih**
+    Tampilan minimalis yang fokus pada konten utama Anda, membuat profil Anda terlihat profesional.
 
-Ekspor ke Spreadsheet
-🚀 Cara Pakai
-Clone Repo:
+  * 📱 **Sepenuhnya Responsif**
+    Tampilan sempurna di semua perangkat, baik dibuka di desktop layar lebar maupun di ponsel.
 
-Bash
+  * 🎨 **Kustomisasi Super Gampang**
+    Ubah seluruh skema warna dengan mudah hanya dengan mengedit beberapa baris variabel CSS. *Noob-friendly\!*
 
-git clone https://github.com/sulthonas15/profile-card.git
-Buka index.html di Browser
+  * ✨ **Batas Gradien Keren**
+    Foto profil dikelilingi oleh batas gradien yang halus dan menarik perhatian.
 
-Cukup klik dua kali filenya untuk melihat kartu profil Anda secara langsung.
+  * 👆 **Animasi Hover Halus**
+    Efek transisi yang memuaskan saat mouse menyentuh tombol dan ikon sosial.
 
-Kustomisasi:
+-----
 
-Buka index.html untuk mengubah foto, nama, bio, statistik, dan link sosial media.
+## 🛠️ Teknologi yang Dipakai
 
-Untuk mengubah tema warna (background, teks, gradien), buka style.css dan edit variabel di bagian :root:
+| Teknologi      | Deskripsi                                                   |
+| -------------- | ----------------------------------------------------------- |
+| **HTML5** | Struktur dasar dan konten dari kartu profil.                |
+| **CSS3** | Styling, layout Flexbox, responsivitas, dan animasi.        |
+| **Google Fonts** | Menggunakan font "Poppins" untuk tipografi yang modern.     |
+| **Font Awesome** | Menyediakan ikon-ikon media sosial yang tajam dan scalable. |
 
-CSS
+-----
 
-:root {
-    --card-bg: #ffffff;
-    --body-bg: #f0f4f8;
-    --primary-text: #1a202c;
-    --secondary-text: #718096;
-    /* ...dan seterusnya */
-}
-Deploy ke GitHub Pages:
+## 🚀 Cara Pakai
 
-Upload proyek Anda ke repositori GitHub.
+1.  **Clone Repo:**
 
-Masuk ke Settings > Pages di repo Anda.
+    ```bash
+    git clone https://github.com/sulthonas15/profile-card.git
+    ```
 
-Pilih branch main (atau master), biarkan folder /root, lalu klik Save.
+2.  **Buka `index.html` di Browser**
 
-Tunggu beberapa menit, dan halaman Anda akan live!
+    Cukup klik dua kali filenya untuk melihat kartu profil Anda secara langsung.
 
-📄 Lisensi
+3.  **Kustomisasi:**
+
+      * Buka `index.html` untuk mengubah foto, nama, bio, statistik, dan link sosial media.
+
+      * Untuk mengubah tema warna (background, teks, gradien), buka `style.css` dan edit variabel di bagian `:root`:
+
+        ```css
+        :root {
+            --card-bg: #ffffff;
+            --body-bg: #f0f4f8;
+            --primary-text: #1a202c;
+            --secondary-text: #718096;
+            /* ...dan seterusnya */
+        }
+        ```
+
+4.  **Deploy ke GitHub Pages:**
+
+      * Upload proyek Anda ke repositori GitHub.
+      * Masuk ke **Settings \> Pages** di repo Anda.
+      * Pilih branch `main` (atau `master`), biarkan folder `/root`, lalu klik **Save**.
+      * Tunggu beberapa menit, dan halaman Anda akan live\!
+
+-----
+
+## 📄 Lisensi
+
 Proyek ini berada di bawah Lisensi MIT.
-Silakan modifikasi, gunakan kembali, atau bagikan sesuka Anda!
+Silakan modifikasi, gunakan kembali, atau bagikan sesuka Anda\!
 
-Dibuat dengan penuh semangat oleh Sulthon Aris Setiawan. Kalau suka, jangan lupa kasih bintang ⭐ ya!
+-----
+
+Dibuat dengan penuh semangat oleh **Sulthon Aris Setiawan**. Kalau suka, jangan lupa kasih bintang ⭐ ya\!
