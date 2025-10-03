@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+:root {
+    --card-bg: #ffffff;
+    --body-bg: #f0f4f8;
+    --primary-text: #1a202c;
+    --secondary-text: #718096;
+    --stat-bg: #f7fafc;
+    --stat-border: #e2e8f0;
+    --shadow-color: rgba(0, 0, 0, 0.1);
+    --gradient-start: #ffbe0b;
+    --gradient-mid: #fb5607;
+    --gradient-end: #8338ec;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--body-bg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.profile-card {
+    background-color: var(--card-bg);
+    width: 100%;
+    max-width: 380px;
+    border-radius: 24px;
+    box-shadow: 0 10px 40px var(--shadow-color);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-header {
+    height: 140px;
+    background-image: url('images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 14px;
+}
+
+.add-button {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(5px);
+    color: #555;
+    font-size: 22px;
+    font-weight: 300;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.2s;
+}
+
+.add-button:hover {
+    transform: scale(1.1);
+}
+
+.card-content {
+    padding: 0 24px 24px;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    background-color: var(--card-bg);
+}
+
+.profile-image-container {
+    width: 104px;
+    height: 104px;
+    margin: 0 auto;
+    border-radius: 50%;
+    padding: 4px;
+    background: conic-gradient(from 180deg at 50% 50%, var(--gradient-start), var(--gradient-mid), var(--gradient-end), var(--gradient-start));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 3;
+    margin-top: -56px;
+    margin-bottom: 16px;
+}
+
+.profile-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 3px solid var(--card-bg);
+    object-fit: cover;
+}
+
+.user-info h1 {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--primary-text);
+    margin: 0 0 4px;
+}
+
+.user-info p {
+    font-size: 14px;
+    color: var(--secondary-text);
+    margin: 0;
+    line-height: 1.5;
+}
+
+.user-stats {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--stat-bg);
+    border: 1px solid var(--stat-border);
+    border-radius: 16px;
+    padding: 16px;
+    margin: 24px 0;
+}
+
+.stat {
+    display: flex;
+    flex-direction: column;
+}
+
+.stat strong {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--primary-text);
+}
+
+.stat span {
+    font-size: 12px;
+    color: var(--secondary-text);
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.social-links a {
+    color: var(--secondary-text);
+    font-size: 22px;
+    text-decoration: none;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-links a:hover {
+    color: var(--primary-text);
+    transform: translateY(-3px);
+}
